@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="estadosLista">
+            <item>Ciclo de vida del activity</item>
+            <item>onCreate:Se llama en la creación de la actividad. </item>
+            <item>onStart: Activa o en ejecución cuando ocupa el primer plano. La pantalla está visible y tiene el foco de la interacción del usuario.</item>
+            <item>onResume: Pausada, cuando ha perdido el foco pero todavía es parcialmente visible. Típicamente ocurre cuando se abre un diálogo encima de la pantalla.</item>
+            <item>onPause: Parada o detenida, cuando nada de ella es visible.</item>
+            <item>onStop: El ciclo durante el que la actividad es visible, aunque sea parcialmente, desde onStart() hasta onStop().</item>
+            <item>onFinish: El sistema puede terminar una Activity en cualquier momento, bien invocando su método finish() o matando su proceso.</item>
+        </string-array>
+</resources>
